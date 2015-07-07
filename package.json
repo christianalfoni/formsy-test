@@ -1,0 +1,23 @@
+{
+  "name": "formsy-test",
+  "version": "0.1.0",
+  "description": "Test new version of Formsy-React",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --devtool eval-source-map --progress --colors --content-base build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Alfoni",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.3.1",
+    "form-data-to-object": "^0.1.0",
+    "formsy-react": "git://github.com/christianalfoni/formsy-react.git#react-0.14",
+    "node-libs-browser": "^0.5.2",
+    "react": "^0.14.0-beta1",
+    "react-dom": "^0.14.0-beta1",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
